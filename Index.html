@@ -17,9 +17,48 @@
       <a class="navbar-brand" href="#">
         <img src="assets/img/aplogo.png" alt="" width="20%" height="" class="d-inline-block align-text-top">
         </a>
-      <i class="fa-brands fa-instagram fa-2xl"></i>
-      <i class="fa-brands fa-instagram fa-2xl"></i>
-      <i class="fa-brands fa-instagram fa-2xl"></i>
+       
+        <ul class="list-group list-group-horizontal ">
+        <li class="list-group-item "><i class="fa-brands fa-instagram fa-2xl  "></i></li>
+        <li class="list-group-item"><i class="fa-brands fa-linkedin fa-2xl "></i>
+        <li class="list-group-item"><i class="fa-brands fa-github fa-2xl "></i></li>
+        <li class="list-group-item">
+          <i class="fa-solid fa-user-lock fa-2xl"type="button"data-bs-toggle="modal" data-bs-target="#exampleModal" >
+          
+          </i>
+        </li>
+        </ul>
+   
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3 row">
+          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-10">
+            <input type="text"  class="form-control-plaintext" id="staticEmail" value="email@ejemplo.com">
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
+          <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+         <button type="button" class="btn btn-primary">Iniciar Sesion </button>
+      </div>
+    </div>
+  </div>
+</div>
+     
     </div>
   </nav>
     <!-- JavaScript Bundle with Popper -->

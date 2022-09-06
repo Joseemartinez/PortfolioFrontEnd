@@ -2,3 +2,27 @@
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(255,255,255,1) 100%);
 }
+
+
+i.fa-brands.fa-instagram.fa-2xl:hover{
+color: rgb(235, 36, 96);
+} 
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: rgb(83, 83, 207) !important;
+}
+i.fa-brands.fa-github.fa-2xl:hover{
+    color: rgb(255, 238, 0);
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color:rgb(12, 133, 18)
+}
+.list-group{
+    --bs-list-group-bg: transparent !important;
+}
+.list-group{
+    --bs-list-group-color: #020000 !important;
+}
+
+.list-group{
+    --bs-list-group-border-color: transparent !important;
+}
