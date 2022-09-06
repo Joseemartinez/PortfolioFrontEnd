@@ -1,13 +1,4 @@
-*{
-    width: 70%;
-  margin: auto;
-  padding: 0.25;
+.navbar.navbar-expand-lg.bg-primary{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(255,255,255,1) 100%);
 }
-    .titulo {
-        color: rgba(167, 11, 107, 0.808);
-    }
-    
-    
-    .fondo {
-        background: rgb(7, 167, 60);
-    }
