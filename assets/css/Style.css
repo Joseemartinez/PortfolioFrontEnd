@@ -1,3 +1,6 @@
+
+
+
 .navbar.navbar-expand-lg.bg-primary{
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 39%, rgba(255,255,255,1) 100%);
@@ -25,4 +28,18 @@ i.fa-solid.fa-user-lock.fa-2xl:hover{
 
 .list-group{
     --bs-list-group-border-color: transparent !important;
+}
+
+
+.carousel-inner img{
+    width: 100%;
+    max-height: 750px ;
+}
+
+.carousel-inner{
+    height: 200px;
+}
+
+img.w-75.perfil{
+    border-radius: 50%;
 }
