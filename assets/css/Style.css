@@ -1,5 +1,7 @@
-
-
+section.panel{
+    margin-top: 5rem;
+}
+ 
 
 .navbar.navbar-expand-lg.bg-primary{
     background: rgb(2,0,36);
@@ -40,6 +42,11 @@ i.fa-solid.fa-user-lock.fa-2xl:hover{
     height: 200px;
 }
 
-img.w-75.perfil{
+/*img.w-75.perfil{
+
     border-radius: 50%;
+}
+*/
+i.fa-solid.fa-user-large.fa-2xl:hover{
+    color: rgb(43, 255, 0);
 }
